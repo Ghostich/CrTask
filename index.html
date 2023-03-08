@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title></title>
+  </head>
+  <body>
+    <div>
+    <script src="main.js"></script>
+    <div class="user-list-container">
+      <ul class="user-list">
+        <li><button class="my-button" id="U0"></button></li>
+        <li><button class="my-button" id="U1"></button></li>
+        <li><button class="my-button" id="U2"></button></li>
+      </ul>
+      <div id="myModal" class="modal">
+        <span class="close-button" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <div id="userInfo"></div>
+          <p id="myElement"></p>
+        </div>
+      </div>
+    </div>
+    <div id="myPostModal" class="myPostModal">
+      <div class="postModal-content">
+        <span class="close" onclick="closePostModal()">&times;</span>
+        <p id="userPosts">This is the modal content!</p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

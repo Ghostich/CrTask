@@ -1,0 +1,133 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+.user-list-container {
+  margin: 0 auto;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.user-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-list li {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+  color: #333;
+}
+
+.user-list li:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+}
+
+/* Show the modal container when it is opened */
+.modal.show {
+  display: block;
+}
+.my-button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* Style the close button */
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal {
+  justify-content: center; /* Center the elements horizontally */
+  align-items: center; /* Center the elements vertically */
+  font-family: Arial, sans-serif; /* Use a sans-serif font */
+  background-color: #f5f5f5; /* Set a light gray background color */
+  padding: 20px; /* Add some padding around the elements */
+  border-radius: 10px; /* Add a rounded border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+}
+.modal p {
+  font-size: 16px; /* Set the font size of the details */
+  margin: 0; /* Remove any margin */
+}
+.postButton {
+  margin-top: 15px;
+  background-color: #000000;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.myPostModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+.postModal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
